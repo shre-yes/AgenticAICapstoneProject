@@ -33,11 +33,10 @@ Follow these steps to set up the project on your local machine:
 ### 1. Clone the Repository
 
 ```bash
-git clone [YOUR_REPOSITORY_URL_HERE]
-cd [project-folder-name]
+git clone https://github.com/shre-yes/AgenticAICapstoneProject.git
 ```
 
-### 2. Create and Activate Virtual Environment
+### 2. Create and Activate Virtual Environment (within the cloned directory, not inside trading_advisor/)
 
 It is highly recommended to use a virtual environment to manage dependencies.
 
@@ -77,4 +76,5 @@ Example of required variables:
 ```ini
 # Example: Replace with your actual key
 GOOGLE_SEARCH_API_KEY="AIzaSy...XYZ123" 
+
 # Add any other required keys here (e.g., BROKER_API_KEY)
